@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd"
+>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<title>SciPro Page</title>
+    <style>  li {
+        list-style-type: none;
+        background-color: rgba(215, 255, 255, 0.94);
+        height: 80px;
+        width: 663px;
+         }
+
+          </style>
+</head>
+<body>
+
+	<h1>Looking for a project partner</h1>
+	<form wicket:id="adsForm">
+
+		<textarea wicket:id="title" type="text"  rows="10" cols="60" > </textarea>
+
+        <br/>
+
+			<input wicket:id="submit"  type=submit value="Publish Ads" >
+
+	</form>
+	<ul wicket:id="listContainer">
+
+		<li wicket:id="list"><span wicket:id="adsName" />
+
+		</li>
+	</ul>
+</body>
+</html>

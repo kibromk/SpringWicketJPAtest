@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DSVITprogrammersTest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="DSVITprogrammersTest-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="DSVITprogrammersTest:war exploded" />
+    </root>
+  </artifact>
+</component>
